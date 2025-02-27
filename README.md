@@ -9,20 +9,15 @@ Slack/Webhook Integration: Sends categorized emails and AI-generated replies to 
 Email Reply Suggestions: AI-generated email reply suggestions to help users respond quickly.
 ## Table of Contents:
 ## Setup Instructions
-## Architecture Details
-Feature Implementation
-Contributing
-License
-Setup Instructions
 Follow these steps to set up the ReachInbox project locally:
 
-Prerequisites:
+## Prerequisites:
 Node.js (v14 or above)
 NPM or Yarn
 Elasticsearch (running locally or cloud-based)
 IMAP email account credentials (for synchronization)
 Slack webhook URL (for sending notifications)
-Steps to Set Up the Backend:
+## Steps to Set Up the Backend:
 Clone the repository:
 
 bash
@@ -55,7 +50,7 @@ Edit
 npm start
 The backend should now be running at http://localhost:3000.
 
-Steps to Set Up the Frontend:
+## Steps to Set Up the Frontend:
 Clone the frontend repository:
 
 bash
@@ -68,7 +63,7 @@ Install dependencies:
 bash
 Copy
 Edit
-npm install
+`npm install`
 Run the frontend:
 
 bash
