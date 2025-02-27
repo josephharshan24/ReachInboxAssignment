@@ -20,44 +20,35 @@ Slack webhook URL (for sending notifications)
 ## Steps to Set Up the Backend:
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/reachinbox.git
+```git clone https://github.com/your-username/reachinbox.git
 cd reachinbox-backend
 Install dependencies:
 
-bash
-Copy
-Edit
-npm install
+```npm install
 Set up environment variables by creating a .env file in the root directory with the following variables:
 
-env
-Copy
-Edit
-IMAP_HOST=your_imap_host
+```env
+
+```IMAP_HOST=your_imap_host
 IMAP_PORT=your_imap_port
 IMAP_USER=your_imap_user
 IMAP_PASSWORD=your_imap_password
 SLACK_WEBHOOK_URL=your_slack_webhook_url
 ELASTICSEARCH_URL=http://localhost:9200
+
 Run the backend server:
 
-bash
-Copy
-Edit
-npm start
+
+```npm start
 The backend should now be running at http://localhost:3000.
 
 ## Steps to Set Up the Frontend:
 Clone the frontend repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/reachinbox-frontend.git
+
+```git clone https://github.com/your-username/reachinbox-frontend.git
 cd reachinbox-frontend
+
 Install dependencies:
 
 bash
@@ -66,10 +57,9 @@ Edit
 `npm install`
 Run the frontend:
 
-bash
-Copy
-Edit
-npm start
+
+```npm start
+
 The frontend should now be running at http://localhost:3000.
 
 ## Architecture Details
